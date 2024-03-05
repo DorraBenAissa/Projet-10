@@ -2,6 +2,8 @@
 import Button from "../../components/Button";
 import Logo from "../../components/Logo";
 
+import "../../pages/Home/index";
+
 import "./style.scss";
 
 const Menu = () => (
