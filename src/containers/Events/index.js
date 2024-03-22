@@ -12,7 +12,6 @@ const PER_PAGE = 9;
 const EventList = () => {
   const { data, error } = useData();
   const [type, setType] = useState();
-  console.log('type', type);
   const [currentPage, setCurrentPage] = useState(1);
   const filteredEvents = (
     (!type
